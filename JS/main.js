@@ -1,10 +1,36 @@
-function My_First_Function() {          //Defining a function and naming it
-    var str="This text is purple";       //Defining a variable and giving it a 
-    var result= str.fontcolor("purple"); //string value
-    document.getElementById("Purple_Text").innerHTML=result; //Putting the value
-                                        //of result into HTML element with "Green_Text" id
-}
+let  x = addition_Function; //Function is called, value will equal x
 
-function myFunction() {
-    return 7 * 5;   // The function returns the product of 7 and 5
-  }
+function addition_Function(a, b) {  //Function returns a added to  b
+    return a + b;
+}
+let  x = subtraction_Function; //Function is called, value will equal x
+
+function subtraction_Function(a, b) {  //Function returns a subtracted by b
+    return a - b;
+}
+let  x = multiplication_Function; //Function is called, value will equal x
+
+function multiplication_Function(a, b) {  //Function returns a multiplied b
+    return a * b;
+}
+let  x = division_Function; //Function is called, value will equal x
+
+function division_Function(a, b) {  //Function returns a divided by  b
+    return a / b;
+}
+let  x = combination_Function; //Function is called, value will equal x
+
+function combination_Function(a, b) {  //Function returns a and b*c
+    return (a + b) *c;
+}
+let  x = modulus_Function; //Function is called, value will equal x
+
+function modulus_Function(a, b) {  //Function returns a and b
+    return a % b;
+}
+var x = 6;  //Increment 
+x++;
+var x = 6; //Decrement
+x++;
+
+ 
