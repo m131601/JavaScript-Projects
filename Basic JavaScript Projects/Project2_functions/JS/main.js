@@ -8,3 +8,5 @@ function My_First_Function() {          //Defining a function and naming it
 function myFunction() {
     return 7 * 5;   // The function returns the product of 7 and 5
   }
+    var y = 20; //Operator +=
+    y += 10;
