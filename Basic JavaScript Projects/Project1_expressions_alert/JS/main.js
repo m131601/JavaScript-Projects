@@ -12,5 +12,5 @@ function My_First_Function() {          //Defining a function and naming it
     var str="This text is green";       //Defining a variable and giving it a 
     var result= str.fontcolor("green"); //string value
     document.getElementById("Green_Text").innerHTML=result; //Putting the value
-                                        //of result int"o HTML element with "Green_Text" id
+                                        //of result into HTML element with "Green_Text" id
 }
