@@ -1,87 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <script src="JS/main.js"></script>
-    </head>
-    <body>
-        <p><h2>Functions with Addition</h2></p>
-        <p id="demo"></p>
-        <script>
-            var x = addition_Function(2, 3);
-                    document.getElementById ("demo").innerHTML = x;
-                function addition_Function(a, b) {
-                    return a + b;
-                }
-         </script>
-          <p><h2>Functions with Subtraction</h2></p>
-          <p id="d"></p>
-         <script>
-            var x = subtraction_Function(5, 3);
-                    document.getElementById ("d").innerHTML = x;
-                function subtraction_Function(a, b) {
-                    return a - b;
-                }
-         </script>
-         <p><h2>Functions with Multiplication</h2></p>
-         <p id="e"></p>
-        <script>
-           var x = multiplication_Function(5, 3);
-                   document.getElementById ("e").innerHTML = x;
-               function multiplication_Function(a, b) {
-                   return a * b;
-               }
-        </script>
-        <p><h2>Functions with Division</h2></p>
-        <p id="o"></p>
-       <script>
-          var x = division_Function(30, 3);
-                  document.getElementById ("o").innerHTML = x;
-              function division_Function(a, b) {
-                  return a / b;
-              }
-       </script>
-       <p><h2>Functions with Combinations</h2></p>
-       <p id="j"></p>
-       <script>
-       let a = 4;
-       var x = (200 + 50) * a;
-       document.getElementById("j").innerHTML = x;
-       </script>
-        <p><h2>Functions with Modulus</h2></p>
-        <p id="n"></p>
-       <script>
-          var x = modulus_Function(255, 5);
-                  document.getElementById ("n").innerHTML = x;
-              function modulus_Function(a, b) {
-                  return a % b;
-              }
-       </script>
-          <p><h2>Functions with Negation</h2></p>
-          <p id="s"></p>
-         <script>
-            var x = 20;
-                    document.getElementById ("s").innerHTML = -x;
-                function negation_Function () {
-                    return x;
-                }
-         </script>
-        <p><h2>Increment</h2></p>
-         <script>
-             var x = 10;
-             x++;
-             document.write(x);
-         </script>
-         <p><h2>Decrement</h2></p>
-         <script>
-            var x = 10;
-            x--;
-            document.write(x);
-        </script>
-         <p><h2>Random</h2></p>
-         <script>
-             window.alert(Math.random()*100);
-         </script>
-          </body>
-    </html>
+<head>
+    <meta charset="UTF-8">
+    <script src="JS/main.js"></script>
+  </head>
+ <body>
+  <button onclick="My_First_Function()" id="Purple_Text">
+  Click me!
+  </button> 
+  <script> 
+  var x = myFunction(7, 5);
+    document.getElementById("demo").innerHTML = x;
+
+    function myFunction(a, b) {
+    return a * b;
+    }
+    </script> 
+
+</body>
+</html>
