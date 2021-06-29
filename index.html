@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Comparisons</title>
-    <meta charset="UTF-8">
+    <title>Dictionary</title>
     <script src="JS/main.js"></script>
 </head>
- <body>
-    <p>Display the value of Boolean(15 > 9)</p>
-
-    <button onclick="myFunction()">Try it</button>
+<body>
+<h2>Animals</h2>    
+<button>
+    <p id="Dictionary" onclick="">Click Me!</p>
+</button>
     
-    <p id="demo"></p>
-    
-    <script>
-    function myFunction() {
-      document.getElementById("demo").innerHTML = Boolean(15 > 9);
-    }
-    </script>
-     </body>
- </html>
+<script>
+    var Animal = {
+        Species: "Dog",
+        Color: "Black",
+        Breed: "Poodle",
+        Age: 4,
+        Sound: "Woof!"
+    };
+    // Delete statement
+    delete Animal.Sound;
+    // Display results
+    document.getElementById("Dictionary").innerHTML = Animal.Sound;
+</script>
+</body>
+</html>
