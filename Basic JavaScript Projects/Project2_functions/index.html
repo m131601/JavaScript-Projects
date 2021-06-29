@@ -8,14 +8,15 @@
   <button onclick="My_First_Function()" id="Purple_Text">
   Click me!
   </button> 
+  <p><h2>Calculation function<h2></p>
+  <p id="m"></p>
   <script> 
-  var x = myFunction(7, 5);
-    document.getElementById("demo").innerHTML = x;
-
-    function myFunction(a, b) {
+  function mFunction(a, b) {
     return a * b;
     }
+  document.getElementById("m").innerHTML = mFunction(7, 5);
     </script>
+
     <h2>Operator</h2>
    <p id="math"></p>
       <script>
