@@ -8,30 +8,31 @@ function Add_numbers_2() {  //Global Variable
 Add_numbers_1();            //Add numbers
 Add_numbers_2();
 
-function Add_numbers_1() {  //Local Variable
+function Add_numbers_3() {  //Local Variable
     var x = 10;
     document.write(20 + x + "<br>");
 }
-function Add_numbers_2(){
+function Add_numbers_4(){
     document.write(x + 100);
 }
-Add_numbers_1();            //Add numbers
-Add_numbers_2();
+Add_numbers_3();            //Add numbers
+Add_numbers_4();
 
 function getDate() {
     if (new Date().getHours() <18) {
      document.getElementById("Month").innerHTML = "What month is it?";
        }
-function Add_numbers_1() { //console.log() method to help us debug our code
+}
+function Add_numbers_5() { //console.log() method to help us debug our code
     var x = 10;
     console.log(15 + x);
 }
-function Add_numbers_2() {
+function Add_numbers_6() {
     console.log(x + 100);
 }
-Add_numbers_1();            //if you open the console, you’ll see the error “X is not defined.”
-Add_numbers_2();
-   }
+Add_numbers_5();            //if you open the console, you’ll see the error “X is not defined.”
+Add_numbers_6();
+   
 function Age_Function() {
     Age = document.getElementById("Age").value;
     if (Age >= 18) {
@@ -48,7 +49,7 @@ function Time_function() {              //Time Function using if, else and else 
     if (Time < 12 == Time > 0) {
         Reply = "It is morning time!";
     }
-    else if (TIme >= 12 == Time < 18) {
+    else if (Time >= 12 == Time < 18) {
         Reply =  "It is afternoon.";
     }
     else {
