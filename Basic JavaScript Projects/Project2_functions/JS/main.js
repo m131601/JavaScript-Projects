@@ -9,5 +9,8 @@ function mFunction(a, b) {
     return a * b;   // The function returns the product of 7 and 5
   }
   
-    var y = 20; //Operator +=
+  function tFunction() {  //Concatenate a string
+    var y = 20;
     y += 10;
+ document.getElementById("Concatenate").innerHTML = y;
+}
