@@ -28,7 +28,7 @@ function Add_numbers_5() { //console.log() method to help us debug our code
     console.log(15 + x);
 }
 function Add_numbers_6() {
-    console.log(x + 100);
+    console.log(y + 100);
 }
 Add_numbers_5();            //if you open the console, you’ll see the error “X is not defined.”
 Add_numbers_6();
